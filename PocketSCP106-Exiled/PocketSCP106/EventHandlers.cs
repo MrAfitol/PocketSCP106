@@ -37,7 +37,6 @@ namespace PocketSCP106
 
         public void OnTeleport106(TeleportingEventArgs ev)
         {
-            Log.Debug(isgod);
             if (isgod == true && ev.Player.IsInPocketDimension == true)
             {
                 ev.IsAllowed = false;
@@ -47,7 +46,6 @@ namespace PocketSCP106
 
         public void NoCreatePortal(CreatingPortalEventArgs ev)
         {
-            Log.Debug(isgod);
             if (isgod == true && ev.Player.IsInPocketDimension == true)
             {
                 ev.IsAllowed = false;
