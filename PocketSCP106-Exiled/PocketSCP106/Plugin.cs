@@ -11,8 +11,8 @@ namespace PocketSCP106
         public override string Author => "MrAfitol";
         public override string Name => "PocketSCP106";
         public override string Prefix => "pocet_scp_106";
-        public override Version RequiredExiledVersion => new Version(1, 11, 1);
-        public override Version Version => new Version(1, 0, 0);
+        public override Version RequiredExiledVersion => new Version(2, 11, 1);
+        public override Version Version => new Version(1, 1, 0);
 
         public static Plugin plugin;
         public EventHandlers handlers;
