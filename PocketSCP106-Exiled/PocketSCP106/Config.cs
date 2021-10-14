@@ -21,11 +21,11 @@ namespace PocketSCP106
         [Description("What will be written when SCP106 leaves its dimension?")]
         public string ExitPocketDimension { get; set; } = "You are out of your dimension";
 
-        [Description("You want the Scp-106 to teleport through the dira when teleporting to its dimension, this will take longer?")]
-        public bool AnimTeleportStart { get; set; } = true;
+        //[Description("You want the Scp-106 to teleport through the dira when teleporting to its dimension, this will take longer?")]
+        //public bool AnimTeleportStart { get; set; } = true;
 
-        [Description("Do you want Scp-106 to teleport through the dira when exiting dimension, will it take longer?")]
-        public bool AnimTeleportBack { get; set; } = true;
+        //[Description("Do you want Scp-106 to teleport through the dira when exiting dimension, will it take longer?")]
+        //public bool AnimTeleportBack { get; set; } = true;
 
         [Description("How long will Scp-106 wait until the next teleportation?")]
         public float CooldownTP { get; set; } = 10f;
