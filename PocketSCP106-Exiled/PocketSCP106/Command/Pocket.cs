@@ -28,13 +28,15 @@ namespace PocketSCP106.Command
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            Player player = Player.Get(((PlayerCommandSender)sender).ReferenceHub);
+            Player player = Player.Get(sender);
 
             if (player.Role != RoleType.Scp106)
             {
                 response = "You are not SCP-106";
                 return false;
             }
+
+            Player caller = Player.Get(sender);
 
             if (!player.IsInPocketDimension)
             {
