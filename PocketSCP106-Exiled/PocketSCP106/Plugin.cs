@@ -12,7 +12,7 @@ namespace PocketSCP106
         public override string Name => "PocketSCP106";
         public override string Prefix => "pocet_scp_106";
         public override Version RequiredExiledVersion => new Version(3, 0, 5);
-        public override Version Version => new Version(1, 3, 0);
+        public override Version Version => new Version(1, 4, 0);
 
         public static Plugin plugin;
         public EventHandlers handlers;
