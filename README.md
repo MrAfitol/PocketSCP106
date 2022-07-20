@@ -1,4 +1,6 @@
 # PocketSCP106
+![img](https://img.shields.io/github/downloads/MrAfitol/PocketSCP106/total.svg)
+
 **Command for SCP-106. After sending the command, SCP-106 travels to its pocket dimension.**
 
 **If you find problems with the plugin, be sure to let me know, my discord: ``MrAfitol#1760``.**
